@@ -1,0 +1,11 @@
+.chart-line {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.charts {
+  display: flex;
+}
+.MuiDataGrid-panel .MuiTypography-root {
+  color: #1958d6 !important;
+}

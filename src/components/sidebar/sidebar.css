@@ -1,0 +1,83 @@
+.side-bar {
+  width: 230px;
+  padding: 0 20px;
+  box-shadow: 1px 0px 10px 2px black;
+  transition: .5s;
+}
+.close {
+  width: 120px;
+  cursor: pointer;
+  box-shadow: 1px 0px 10px 2px black;
+  transition: .5s;
+
+}
+.side-bar .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.side-bar .menu h1 {
+  font-weight: normal;
+  font-size: 23px;
+}
+.img-name {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.img-name img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.desc-name {
+  text-align: center;
+  color: rgb(49, 49, 252);
+  margin-bottom: 30px;
+}
+.icon-title {
+  display: flex;
+  justify-content: left;
+  margin-left: 50px;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 0px;
+  transition: 0.5s;
+}
+.icon-title.active,
+.icon-title:hover {
+  color: rgb(49, 49, 252);
+}
+.icon-title:hover .side-bar-icon {
+  animation: rotateAnim 0.5s;
+  transition: 0.5s;
+}
+@keyframes rotateAnim {
+  0% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(0);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+.icon-title h4 {
+  font-weight: normal;
+  font-size: 13px;
+  margin-left: 20px;
+}

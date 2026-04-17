@@ -1,0 +1,26 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.title-content p {
+  color: rgb(49, 49, 252);
+}
+
+.title .download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 252);
+    padding: 2px 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.title .download:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+.title .download h5 {
+    margin-left: 15px;
+}

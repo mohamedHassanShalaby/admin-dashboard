@@ -1,0 +1,31 @@
+.doughnut,
+.bar,
+.geography {
+  width: 30%;
+  margin-right: 20px;
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px;
+}
+.geography {
+  margin-right: 0;
+}
+
+.doughnut-content {
+  margin-top: 10px;
+  text-align: center;
+}
+.doughnut-content p {
+  font-size: 14px;
+}
+.doughnut-content .doughnut-revenue {
+  color: rgb(49, 49, 252);
+  font-size: 16px;
+}
+.geography {
+  width: 100%;
+}
+.geography .mapContainer {
+  margin-top: 30px;
+}

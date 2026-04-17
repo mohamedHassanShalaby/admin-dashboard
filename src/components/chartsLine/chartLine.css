@@ -1,0 +1,87 @@
+.line-container {
+  display: flex;
+  flex-direction: column; /* ده المهم */
+  width: 63%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chart-wrapper {
+  width: 100%;
+}
+
+.line .all-price {
+  color: rgb(49, 49, 252);
+  font-size: 23px;
+}
+
+.transction {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 35%;
+  border-radius: 10px;
+  max-height: 440px; /* حدد ارتفاع */
+  overflow-y: auto; /* فعل الاسكرول */
+  overflow-x: hidden;
+}
+.transction h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+.transction-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.transction-name .hexa {
+  color: rgb(49, 49, 252);
+}
+.transction button {
+  background-color: rgb(49, 49, 252);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.transction hr {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin: -3px 0;
+  background-color: #101010;
+  border: none;
+  padding: 3px;
+}
+.transction::-webkit-scrollbar {
+  width: 6px; /* عرض الاسكرول */
+}
+
+.transction::-webkit-scrollbar-track {
+  background: transparent; /* الخلفية */
+}
+
+.transction::-webkit-scrollbar-thumb {
+  background: rgb(49, 49, 252); /* اللون */
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.transction::-webkit-scrollbar-thumb:hover {
+  background: rgb(70, 70, 255); /* لون أفتح عند hover */
+}

@@ -1,0 +1,35 @@
+.report {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.report .container {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.report .container:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.report .icon {
+  color: rgb(49, 49, 252);
+  font-size: 30px;
+}
+
+.report p {
+  color: rgb(49, 49, 252);
+  font-size: 18px;
+}
+.report .circle {
+  background:
+    radial-gradient(#000000 55%, transparent 56%),
+    conic-gradient(transparent 0deg 108deg, #1d26d3 108deg 360deg), #110a3b;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}

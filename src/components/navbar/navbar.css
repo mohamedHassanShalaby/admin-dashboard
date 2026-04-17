@@ -1,0 +1,37 @@
+.navbar {
+  width: calc(100vw - 350px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  transition: 0.5s;
+}
+.navbar.c {
+  width: calc(100vw - 200px);
+  transition: 0.5s;
+}
+
+.navbar input {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  color: #fff;
+}
+.search-icon {
+  position: absolute;
+  left: 470px;
+  top: 30px;
+  transition: 0.5s;
+}
+.search-icon.c {
+  transition: 0.5s;
+  left: 320px;
+}
+::placeholder {
+  font-size: 17px;
+}
+.navbar .icons {
+  display: flex;
+}
